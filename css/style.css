@@ -1,0 +1,43 @@
+
+
+ul {
+    list-style: none;
+    padding: 0
+}
+
+li {
+    padding: 30px;
+    border-top: 1px solid black;
+}
+
+li:last-child {
+    border-bottom: 1px solid black;
+}
+
+.list-container {
+    max-width: 500px;  
+    margin: 0 auto; 
+   
+}
+.addList {
+    margin: 1rem
+}
+button:active {
+    background-color: grey
+}
+ul {
+     background-color: rgb(241, 241, 241);
+    padding: 30px;
+    border-radius: 30px;
+}
+
+input[type="checkbox"] {
+    transform: scale(2);
+    margin: 1rem
+}
+li > label {
+    font-size: 1rem;
+}
+li input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+}
